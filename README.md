@@ -1,6 +1,6 @@
 # Exploratory
 
-**Status: early development.** This repository is the home of *Exploratory*, a
+**Status: early development.** Live at https://exploratory-cyan.vercel.app. This repository is the home of *Exploratory*, a
 two-axis concept engine: a radar-style dashboard where people, AI models and a
 curated catalog of organisations and papers are placed on two independent
 polarities, and where you can explore stances other than your own. The first

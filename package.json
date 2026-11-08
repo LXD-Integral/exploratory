@@ -1,7 +1,7 @@
 {
-  "name": "ai-positioning-matrix",
-  "version": "1.0.0",
-  "description": "An interactive 12-question assessment that positions people on a 2D matrix of their stance on AI development pace and AI's nature, then offers reflection questions instead of a verdict.",
+  "name": "exploratory",
+  "version": "2.0.0-alpha.0",
+  "description": "Exploratory: a two-axis concept engine with a radar dashboard, catalog layers, AI participants and shared sessions. First pack: AI Stance (successor to ai-positioning-matrix).",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXD-Integral/ai-positioning-matrix.git"
+    "url": "git+https://github.com/LXD-Integral/exploratory.git"
   },
   "keywords": [
     "nextjs",
@@ -20,13 +20,13 @@
     "matrix",
     "visualization"
   ],
-  "author": "Dan Bashaw (LXD Integral)",
+  "author": "Dan Bashaw (LXD Integral Learning Ltd.)",
   "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/LXD-Integral/ai-positioning-matrix/issues"
+    "url": "https://github.com/LXD-Integral/exploratory/issues"
   },
-  "homepage": "https://github.com/LXD-Integral/ai-positioning-matrix#readme",
+  "homepage": "https://github.com/LXD-Integral/exploratory#readme",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.12",
     "@types/node": "^24.3.0",

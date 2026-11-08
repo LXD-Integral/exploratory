@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
 import { Maven_Pro } from 'next/font/google'
 import './globals.css'
+import { ENGINE, packTitle } from '@/config/engine'
 
 const mavenPro = Maven_Pro({
   subsets: ['latin'],
@@ -11,8 +12,8 @@ const mavenPro = Maven_Pro({
 })
 
 export const metadata: Metadata = {
-  title: 'AI Positioning Matrix Tool',
-  description: 'Discover your perspective on AI development and consciousness through an interactive assessment',
+  title: packTitle('AI Stance'),
+  description: `${ENGINE.name} — discover your perspective on AI development and consciousness through an interactive assessment`,
   keywords: ['AI', 'assessment', 'positioning', 'consciousness', 'technology'],
   icons: {
     icon: [

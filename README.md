@@ -1,4 +1,24 @@
-# AI Positioning Matrix
+# Exploratory
+
+**Status: early development.** This repository is the home of *Exploratory*, a
+two-axis concept engine: a radar-style dashboard where people, AI models and a
+curated catalog of organisations and papers are placed on two independent
+polarities, and where you can explore stances other than your own. The first
+topic pack is **Exploratory: AI Stance**, the successor to the
+[AI Positioning Matrix](https://github.com/LXD-Integral/ai-positioning-matrix).
+
+The classic tool stays live at https://aipos-nu.vercel.app and is frozen on its
+`classic` branch (release `v1.0.0`). This repo was created from that release
+with full history on 2026-11-07; until the engine work lands, it behaves
+exactly like the classic tool. The sections below describe that behaviour and
+will be rewritten as the engine takes shape.
+
+> Code is licensed **MIT**; the assessment content is licensed **CC BY-SA 4.0**. See
+> [License](#license).
+
+---
+
+## The classic tool (current behaviour)
 
 An interactive web app that helps people explore their perspective on AI along two
 independent dimensions, then hands them reflection questions instead of a verdict. A
@@ -10,10 +30,7 @@ No accounts, no tracking, and **no AI at runtime** — all feedback is pre-writt
 
 ![The AI Positioning Matrix assessment screen](docs/screenshot.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLXD-Integral%2Fai-positioning-matrix&env=KV_REST_API_URL,KV_REST_API_TOKEN&envDescription=Redis%2FKV%20credentials%20for%20shared%20dots%20(see%20README))
-
-> Code is licensed **MIT**; the assessment content is licensed **CC BY-SA 4.0**. See
-> [License](#license).
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLXD-Integral%2Fexploratory&env=KV_REST_API_URL,KV_REST_API_TOKEN&envDescription=Redis%2FKV%20credentials%20for%20shared%20dots%20(see%20README))
 
 ## Features
 

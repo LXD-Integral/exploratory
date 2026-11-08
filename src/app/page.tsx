@@ -6,7 +6,6 @@ import type { Question } from '@/types'
 import ColorPicker from '@/components/ColorPicker'
 import QuestionSlider from '@/components/QuestionSlider'
 import MatrixLightbox from '@/components/MatrixLightbox'
-import Image from 'next/image'
 
 export default function Home() {
   const [userName, setUserName] = useState('')
@@ -147,16 +146,6 @@ export default function Home() {
   return (
     <div className="container">
       <header className="quiz-header">
-        <div className="text-center mb-8">
-          <Image
-            src="/humansplusai-logo.png"
-            alt="Humans + AI"
-            width={300}
-            height={60}
-            className="mx-auto mb-4"
-            style={{ marginTop: '20px' }}
-          />
-        </div>
         <h1>What's your AI Stance?</h1>
         <p className="subtitle">Explore your point of view on AI and its future!</p>
         {/* Absolute top-right on desktop; static, centered below the subtitle on mobile */}

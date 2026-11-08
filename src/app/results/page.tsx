@@ -128,14 +128,6 @@ function ResultsContent() {
     <div className="container min-h-screen bg-white results-page">
       {/* Header Section */}
       <header className="text-center pt-18 pb-8 md:pt-18 md:pb-12">
-        <Image
-          src="/humansplusai-logo.png"
-          alt="Humans + AI"
-          width={300}
-          height={60}
-          className="mx-auto mb-6"
-          style={{ marginTop: '20px' }}
-        />
         <h1 className="text-3xl md:text-4xl font-semibold text-black mb-2">
           Your Report and Reflections
         </h1>
